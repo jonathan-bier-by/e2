@@ -1,0 +1,11 @@
+name:  first
+
+on:  [push]
+
+jobs:
+    job1:
+        name: First job1
+        
+    job2:
+        name:  Second job
+        runs-on
