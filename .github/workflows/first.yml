@@ -28,3 +28,10 @@ jobs:
         steps:
         - name:  step1
           run: echo "Today is $(date) on Ubuntu-16"
+    job5:
+        name: self
+        runs-on: self-hosted
+
+        steps:
+          - name: step1
+            run: echo "Today is $(date) on jb machine"
