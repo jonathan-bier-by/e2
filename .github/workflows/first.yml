@@ -20,7 +20,7 @@ jobs:
         runs-on: macos-latest
         steps:
           - name: step1
-          run: echo "Today is $(date) on MacOS"
+            run: echo "Today is $(date) on MacOS"
     job4:
         name: Fourth job
         runs-on: ubuntu-16.04
