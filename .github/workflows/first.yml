@@ -34,4 +34,6 @@ jobs:
 
         steps:
           - name: step1
-            run: echo "Today is $(date) on jb machine"
+            run:
+              echo "Today is $(date) on jb machine"
+              echo "uname -a"
